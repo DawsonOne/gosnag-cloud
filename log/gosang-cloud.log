@@ -1,0 +1,20 @@
+2021-02-21 14:55:10.498  INFO 488 --- [main] com.gosang.GosnagCloudApplication        : Starting GosnagCloudApplication on ADMINIS-4JHSAQV with PID 488 (started by Administrator in D:\project for leraning\gosnag-cloud)
+2021-02-21 14:55:10.503  INFO 488 --- [main] com.gosang.GosnagCloudApplication        : No active profile set, falling back to default profiles: default
+2021-02-21 14:55:11.189  INFO 488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-02-21 14:55:11.194  INFO 488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-21 14:55:11.195  INFO 488 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2021-02-21 14:55:11.195  INFO 488 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-02-21 14:55:11.196  INFO 488 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-02-21 14:55:11.196  INFO 488 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-02-21 14:55:11.206  INFO 488 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-02-21 14:55:11.266  INFO 488 --- [main] o.a.c.c.C.[.[localhost].[/gosang-cloud]  : Initializing Spring embedded WebApplicationContext
+2021-02-21 14:55:11.266  INFO 488 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 733 ms
+2021-02-21 14:55:11.756  INFO 488 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-21 14:55:11.800  INFO 488 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-21 14:55:11.907  INFO 488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/gosang-cloud'
+2021-02-21 14:55:11.909  INFO 488 --- [main] com.gosang.GosnagCloudApplication        : Started GosnagCloudApplication in 1.715 seconds (JVM running for 2.347)
+2021-02-21 14:56:56.334  INFO 488 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/gosang-cloud]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-21 14:56:56.334  INFO 488 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-21 14:56:56.337  INFO 488 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-02-21 14:57:08.837  INFO 488 --- [http-nio-8081-exec-8] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-02-21 14:57:08.952  INFO 488 --- [http-nio-8081-exec-8] com.gosang.contorller.LoginController    : 登录成功！User(userId=1, openId=123456, fileStoreId=1, userName=gg, email=2114265543@qq.com, password=199610, registerTime=Wed Nov 25 23:35:13 CST 2020, imagePath=https://p.qpic.cn/qqconnect/0/app_101851241_1582451550/100?max-age=2592000&t=0, role=0)
