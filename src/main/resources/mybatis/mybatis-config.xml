@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!--关于MyBatis的一些常用配置-->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING" />
+        <setting name="cacheEnabled" value="true"/>
+        <!--开启懒加载-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <!--懒加载的基础上，false时为只加载需要做的属性，true把整个对象加载出来。false是将懒进行到底-->
+        <setting name="aggressiveLazyLoading" value="false"/>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor"/>
+    </plugins>
+</configuration>
